@@ -1,0 +1,164 @@
+/*
+  http://sgibb.github.com
+
+  Copyright (c) 2012 Sebastian Gibb
+*/
+
+/* colours */
+.grey
+{
+  color: #999;
+}
+
+.green
+{
+  color: #669933;
+}
+/* end of colours */
+
+/* body */
+body
+{
+  background: #fff;
+  color: #4C4C4C;
+  margin: 0px;
+  padding: 2em 4em;
+  font: 80% sans-serif;
+}
+
+ul
+{
+  list-style-type: square;
+  color: #4C4C4C;
+}
+
+li.year 
+{
+  font-weight: bold;
+  list-style-type: none;
+}
+
+a
+{
+  color: #669933;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #4C4C4C;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+.center
+{
+  text-align: center;
+}
+/* end of body */
+
+/* header */
+header h1
+{
+  color: #4C4C4C;
+  font-weight: bold;
+  font-size: 2em;
+}
+/* end of header */
+
+/* article */
+article
+{
+  margin: 2em 4em;
+  padding: 0px;
+}
+
+article h1:first-child
+{
+  border-left: none;
+  color: #4C4C4C;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 1em;
+  padding-left: 0px;
+}
+
+section.post h1:first-child, article h1
+{
+  border-left: 0.5em solid #669933;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 2em;
+  padding-left: 0.8em;
+}
+
+article h2
+{
+  color: #669933;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 2em;
+}
+
+article td
+{
+  vertical-align: top;
+}
+
+article td.col1
+{
+  color: #999;
+  text-align: right;
+}
+
+article td.col2
+{
+}
+/* end of article */
+
+/* navigation */
+.navigation {
+  clear: both;
+  margin: 0em 4em -2em 4em;
+  text-align: center;
+}
+
+.navigation ul {
+  display: inline-block;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  float: left;
+  padding: 0 10px;
+}
+/* end of navigation */
+
+/* footer */
+footer
+{
+  margin: 2em 4em;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer a
+{
+  color: #999;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+footer a:hover
+{
+  color: #4C4C4C;
+  font-weight:bold;
+  text-decoration: underline;
+}
+/* end of footer */
