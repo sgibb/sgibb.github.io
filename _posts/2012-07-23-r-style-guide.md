@@ -25,11 +25,11 @@ standards](http://wiki.fhcrc.org/bioc/Coding_Standards)
 - Variables and functions should start with a lower letter.
 - Class should start with a capital one.
 
-```R
+{% highlight r %}
 fooBar <- 1:10
 helloWorld <- function() # ...
 setClass("SampleClass", #...
-```
+{% endhighlight %}
 
 # Line Length
 max. 80 characters
@@ -44,7 +44,7 @@ two spaces, no tabs
 - No spaces around `=` when passing arguments in a function call
 - No spaces around `:` 
 
-```R
+{% highlight r %}
 a <- 1:10
 b <- a + 1:10
 
@@ -54,14 +54,14 @@ if (debug) {
   message("Hello World!")
 }
 
-```
+{% endhighlight %}
 
 # Curly Braces
 - Opening curly brace in the same line like the statement before.
 - Closing curly brace on its own line.
 - Always add `{` and `}` after `if`. Do not use the one-line shortcut.
 
-```R
+{% highlight r %}
 if (debug) {
   message("Hello World!")
 }
@@ -69,7 +69,7 @@ if (debug) {
 foobar <- function(x) {
   # ...
 }
-```
+{% endhighlight %}
 
 # Assignment
 
