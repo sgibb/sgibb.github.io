@@ -22,6 +22,7 @@ standards](http://wiki.fhcrc.org/bioc/Coding_Standards)
 
 # Variable/Function/Class names
 [camelCase](http://en.wikipedia.org/wiki/CamelCase)
+
 - Variables and functions should start with a lower letter.
 - Class should start with a capital one.
 
