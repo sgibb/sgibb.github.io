@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author.name }}" />
-    <title>{{ site.author.name }} {{ page.title }}</title>
+    <title>{{ page.title }}</title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
     <link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.author.name }}" type="application/atom+xml" />
     <link rel="stylesheet" href="/css/global.css">
@@ -11,15 +11,16 @@
   </head>
   <body>
     <header>
-        <h1>sebastian<span class="green">gibb</span> - blog</h1>
+        <h1>sgibb<span class="green">.github.com</span></h1>
     </header>
     <article>
       <h1>{{ page.title }}</h1>
       {{ content }}
     </article>
     <footer>
-      &copy; {{ site.time | date: "%Y" }} {{ site.author.name }} - E-Mail:
-      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      &copy; {{ site.time | date: "%Y" }} {{ site.author.name }} - e-mail:
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> -
+      homepage: <a href="http://www.sebastiangibb.de">sebastiangibb.de</a>
       <br />
       valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a>,
       valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
