@@ -32,7 +32,7 @@ ul
   color: #4C4C4C;
 }
 
-li.year 
+li.year, li.category
 {
   font-weight: bold;
   list-style-type: none;
