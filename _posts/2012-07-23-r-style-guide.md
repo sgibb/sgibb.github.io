@@ -4,7 +4,7 @@ title: R Code Style Guide
 categories:
 - R
 tags:
-- R code
+- code style
 ---
 
 based on [Google's R Style
@@ -75,3 +75,9 @@ foobar <- function(x) {
 # Assignment
 
 ` <- `
+
+# Comments
+Use `## ` (roxygen: `#' `) to start comments.
+
+# Semicolon
+Don't use it.
