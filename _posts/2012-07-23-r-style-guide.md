@@ -81,3 +81,14 @@ Use `## ` (roxygen: `#' `) to start comments.
 
 # Semicolon
 Don't use it.
+
+# apply calls
+{% highlight r %}
+foo <- apply(bar, 2, median)
+
+foo <- sapply(bar, function(x) {
+  return(x+1)
+})
+{% endhighlight %}
+
+
