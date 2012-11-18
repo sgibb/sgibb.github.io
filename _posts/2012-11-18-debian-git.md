@@ -12,6 +12,7 @@ tags:
 * [deb policy manual](http://www.debian.org/doc/debian-policy/)
 * [git workflow](http://www.eyrie.org/~eagle/notes/debian/git.html)
 * [machine readable copyright file](http://dep.debian.net/deps/dep5/)
+* [debian/watch](http://wiki.debian.org/debian/watch/)
 
 # Setup system
 
