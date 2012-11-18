@@ -43,3 +43,11 @@ tags:
     git commit -m "..."
     git-buildpackage
 
+# Import new version
+
+    cd PROJECT/development/
+    ./debian/rules get-orig-source
+    git-import-orig ../tarballs/PROJECT_NEW_VERSION.tar.gz
+    sudo cowbuilder --update
+    git-buildpackage
+
