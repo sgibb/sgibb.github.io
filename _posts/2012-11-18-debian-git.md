@@ -14,6 +14,11 @@ tags:
 * [machine readable copyright file](http://dep.debian.net/deps/dep5/)
 * [debian/watch](http://wiki.debian.org/debian/watch/)
 
+# git repositories
+
+* [debian-med](http://anonscm.debian.org/gitweb/?pf=debian-med)
+* [debichem](http://anonscm.debian.org/gitweb/?pf=debichem)
+
 # Setup system
 
     apt-get install git-buildpackage cowbuilder
