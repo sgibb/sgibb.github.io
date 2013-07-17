@@ -24,6 +24,10 @@ tags:
 * [debichem](http://qa.debian.org/developer.php?login=debichem-devel@lists.alioth.debian.org)
 * [sgibb](http://qa.debian.org/developer.php?login=sgibb.debian@gmail.com)
 
+# dashboard
+
+* [sgibb/debichem](http://udd.debian.org/dmd.cgi?email1=sgibb.debian%40gmail.com&email2=debichem-devel%40lists.alioth.debian.org&email3=&packages=&ignpackages=)
+
 # Setup system
 
     apt-get install git-buildpackage cowbuilder
