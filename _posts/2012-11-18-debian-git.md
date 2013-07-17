@@ -19,6 +19,11 @@ tags:
 * [debian-med](http://anonscm.debian.org/gitweb/?pf=debian-med)
 * [debichem](http://anonscm.debian.org/gitweb/?pf=debichem)
 
+# qa pages
+
+* [debichem](http://qa.debian.org/developer.php?login=debichem-devel@lists.alioth.debian.org)
+* [sgibb](http://qa.debian.org/developer.php?login=sgibb.debian@gmail.com)
+
 # Setup system
 
     apt-get install git-buildpackage cowbuilder
