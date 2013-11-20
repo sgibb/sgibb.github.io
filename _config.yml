@@ -1,5 +1,3 @@
-server: true
-auto: true
 safe: true
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: date
