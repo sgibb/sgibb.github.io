@@ -8,7 +8,7 @@ tags:
 - backports
 ---
 
-based on https://wiki.debian.org/SimpleBackportCreation
+based on [https://wiki.debian.org/SimpleBackportCreation](https://wiki.debian.org/SimpleBackportCreation)
 
 # Install development tools
 
@@ -18,7 +18,9 @@ su -c "apt-get install devscripts build-essential debian-keyring fakeroot"
 
 # Download the .dsc file from sid
 
-Visit http://packages.debian.org/sid/kio-mtp and look for the `.dsc` file.
+Visit
+[http://packages.debian.org/sid/kio-mtp](http://packages.debian.org/sid/kio-mtp)
+and look for the `.dsc` file.
 
 Download and extract debian source package:
 
@@ -56,3 +58,4 @@ dpkg-buildpackage -us -uc
 {% highlight bash %}
 su -c "dpkg -i ../kio-mtp_0.75+git20130806-2~bpo70+1_amd64.deb"
 {% endhighlight %}
+
