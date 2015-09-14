@@ -11,7 +11,7 @@ based on [Google's R Style
 Guide](http://google-styleguide.googlecode.com/svn/trunk/google-r-style.html)
 
 see also: [bioconductor's coding
-standards](http://wiki.fhcrc.org/bioc/Coding_Standards)
+standards](http://www.bioconductor.org/developers/how-to/coding-style/)
 
 # Filenames
 - R code: `*.R`
@@ -43,7 +43,7 @@ two spaces, no tabs
 - Space after a comma not before
 - Space before left parenthesis not after
 - No spaces around `=` when passing arguments in a function call
-- No spaces around `:` 
+- No spaces around `:`
 
 {% highlight r %}
 a <- 1:10
