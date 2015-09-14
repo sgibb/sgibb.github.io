@@ -12,6 +12,8 @@ markdown: redcarpet
 gems:
   - jekyll-redirect-from
 
+exclude: ['README.md', 'Gemfile', '/vendor']
+
 sass:
   sass_dir: _scss
   style: compressed
