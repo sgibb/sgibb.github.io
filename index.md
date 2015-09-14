@@ -7,7 +7,7 @@ redirect_from:
 
 <img class="photo" alt="photo of sebastian" src="https://www.gravatar.com/avatar/6e612cc57c8fc7e840191ce767a0ea46?s=150&d=identicon" />
 
-I am a medical doctor working as resident at the [Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](http://www2.medizin.uni-greifswald.de/intensiv/).
+I am a medical doctor working as a resident at the [Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](http://www2.medizin.uni-greifswald.de/intensiv/).
 
 In 2010 I joined the [Statistics and Computational Biology research group](http://strimmerlab.org)
 headed by Korbinian Strimmer and worked on computational proteomics,
