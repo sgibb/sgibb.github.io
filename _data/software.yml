@@ -1,0 +1,44 @@
+- type: R packages
+  entries:
+  - name: MALDIquant
+    description: Quantitative Analysis of Mass Spectrometry Data
+    url: http://strimmerlab.org/software/maldiquant/
+
+  - name: MALDIquantForeign
+    description: Import/Export routines for MALDIquant
+
+  - name: readBrukerFlexData
+    description: "Reads MS data in Bruker *flex format"
+
+  - name: readMzXmlData
+    description: Reads MS data in mzXML format
+
+  - name: cleaver
+    description: In-silico cleavage of polypeptide sequences
+    bioc: 1
+
+  - name: Pbase
+    description: Manipulating and exploring protein and proteomics data
+    github: ComputationalProteomicsUnit/Pbase
+    bioc: 1
+
+- type: Contributions to R packages
+  entries:
+  - name: synapter
+    description: Label-free data analysis pipeline for optimal identification and quantitation
+    github: lgatto/synapter
+    bioc: 1
+
+  - name: MSnbase
+    description: Base Functions and Classes for MS-based Proteomics
+    github: lgatto/MSnbase
+    bioc: 1
+
+  - name: mzID
+    description: A mzIdentML parser for R
+    github: thomasp85/mzID
+    bioc: 1
+
+  - name: zoom
+    description: A spatial data visualization tool
+    github: cbarbu/R-package-zoom

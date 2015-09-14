@@ -1,19 +1,75 @@
 ---
-layout: default
-title: blog
+layout: page
+title: Sebastian Gibb
+redirect_from:
+    - research.html
 ---
 
-<ul>
-{% for post in site.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="year">{{ y }}</li>
-  {% endif %}
-  <li>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+<img class="photo" alt="photo of sebastian" src="https://www.gravatar.com/avatar/6e612cc57c8fc7e840191ce767a0ea46?s=150&d=identicon" />
+
+I am a medical doctor working as resident at the [Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](http://www2.medizin.uni-greifswald.de/intensiv/).
+
+In 2010 I joined the [Statistics and Computational Biology research group](http://strimmerlab.org)
+headed by Korbinian Strimmer and worked on computational proteomics,
+namely the analysis of MALDI-TOF mass spectrometry data. In this time I developed [MALDIquant](http://strimmerlab.org/software/maldiquant/) and friends.
+
+You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on:
+{% for entry in site.data.social %} [{{ entry.title}}]({{ entry.url }}){% unless forloop.last %}, {% endunless %}{% endfor %}.
+
+<div class="clear" />
+
+{% for cv in site.data.cv %}
+## {{ cv.type }}
+{% for entry in cv.entries %}
+- **<time>{{ entry.time }}</time>**: {{ entry.title }}
 {% endfor %}
-</ul>
+{% endfor %}
+
+## Software
+{% for software in site.data.software %}
+### {{ software.type }}
+{% for entry in software.entries %}
+- [{{ entry.name }}]({%if entry.bioc %}http://bioconductor.org{% else %}http://cran.r-project.org/web{% endif %}/packages/{{ entry.name }}/):
+  {{ entry.description }}.
+  [[github](https://github.com/{% if entry.github %}{{ entry.github }}{% else %}{{ entry.name }}{% endif %}){% if entry.url %}, [website]({{ entry.url }}){% endif %}]
+{% endfor %}
+{% endfor %}
+
+## Publications
+{% for pubs in site.data.publications %}
+### {{ pubs.name }}
+{% for entry in pubs.entries %}
+- **{{ entry.title }}**.<br />
+  {{ entry.authors | replace:'S. Gibb','*S. Gibb*' }}. {{ entry.year}}.<br />
+  {{ entry.journal }}.
+  {%if entry.doi %}<br />DOI: [{{ entry.doi}}](http://dx.doi.org/{{entry.doi}}).{% endif %} {%if entry.arxiv %} arXiv: [{{ entry.arxiv }}](http://arxiv.org/abs/{{entry.arxiv }}).{% endif %} {%if entry.misc %}<br />{{ entry.misc }}.{% endif %}
+{% endfor %}
+{% endfor %}
+
+(&sup1; equal contributors)
+
+### Recent presentations
+{% for entry in site.data.talks limit: 2 %}
+- **{{ entry.title }}**.<br />
+  {{ entry.date }}. {{ entry.location }}. [[pdf]({{ entry.url }})].<br />
+{% endfor %}
+
+## Contact
+
+<address>
+<table><tbody>
+    <tr>
+        <td class="col1">name:</td>
+        <td class="col2">Sebastian Gibb</td>
+    </tr>
+    <tr>
+        <td class="col1">address:</td>
+        <td class="col2">Peter-Warschow-Stra&szlig;e 52<br>D-17489 Greifswald</td>
+    </tr>
+    <tr>
+        <td class="col1">e-mail:</td>
+        <td class="col2"><a href="mailto:{{ site.email}}">{{ site.email }}</a></td>
+    </tr>
+</tbody></table>
+</address>
 

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<h1 class="page-heading">Posts</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+  {% assign year = y %}
+  <li class="post-year">{{ y }}</li>
+  {% endif %}
+  <li>
+    <span class="post-list-meta"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d.%m." }}</time></span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe via <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>

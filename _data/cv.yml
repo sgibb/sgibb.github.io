@@ -1,0 +1,15 @@
+- type: Employment
+  entries:
+    - title: "[Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](http://www2.medizin.uni-greifswald.de/intensiv/)"
+      time: "Dec 2014 - now"
+
+    - title: "[Department of Anaesthesiology and Intensive Care of the University Hospital Carl Gustav Carus Dresden](http://anaesthesie-dresden.de/)"
+      time: "Jun 2014 - Nov 2014"
+
+- type: Education
+  entries:
+    - title: "Visiting researcher in the [Computational Proteomics Unit](http://cpu.sysbiol.cam.ac.uk) of the [Cambridge Centre for Proteomics](http://proteomics.bio.cam.ac.uk) headed by [Laurent Gatto](http://www.slashhome.be/)"
+      time: "Feb 2014 - May 2014"
+
+    - title: "Staatsexamen in human medicine (physician exam), [University of Leipzig](https://uni-leipzig.de)"
+      time: 2013

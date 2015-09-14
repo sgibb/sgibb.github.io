@@ -1,11 +1,17 @@
-safe: true
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: date
-production_url : http://sgibb.github.io
-url: http://sgibb.github.io
-paginate: 3
-author:
-  name: Sebastian Gibb
-  email: "&#109;&#97;&#105;&#108;&#64;&#115;&#101;&#98;&#97;&#115;&#116;&#105;&#97;&#110;&#103;&#105;&#98;&#98;&#46;&#100;&#101;"
-markdown: rdiscount
-pygments: true
+# Site settings
+title: Sebastian Gibb
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sebastiangibb.de" # the base hostname & protocol for your site
+
+author: Sebastian Gibb
+email: "&#109;&#97;&#105;&#108;&#64;&#115;&#101;&#98;&#97;&#115;&#116;&#105;&#97;&#110;&#103;&#105;&#98;&#98;&#46;&#100;&#101;"
+
+# Build settings
+markdown: redcarpet
+
+gems:
+  - jekyll-redirect-from
+
+sass:
+  sass_dir: _scss
+  style: compressed
