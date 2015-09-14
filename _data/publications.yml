@@ -32,4 +32,4 @@
       authors: S. Gibb and K. Strimmer
       journal: Proceedings of the [8th International Workshop on Computational Systems Biology, WCSB 2011](http://www.wcsb2011.ethz.ch/) (June 6-8, 2011, Zurich, Switzerland), pp. 49-52
       year: 2011
-      misc: ([reprint](http://strimmerlab.org/publications/conferences/maldiquant-wcsb2011.pdf), [poster]({{ site.url }}/downloads/maldiquant/wcsb2011-poster.pdf))
+      misc: "([reprint](http://strimmerlab.org/publications/conferences/maldiquant-wcsb2011.pdf), [poster](/downloads/maldiquant/wcsb2011-poster.pdf))"

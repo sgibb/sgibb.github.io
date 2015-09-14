@@ -5,7 +5,7 @@ redirect_from:
     - research.html
 ---
 
-<img class="photo" alt="photo of sebastian" src="https://www.gravatar.com/avatar/6e612cc57c8fc7e840191ce767a0ea46?s=150&d=identicon" />
+<img class="photo" alt="photo of sebastian" src="https://www.gravatar.com/avatar/6e612cc57c8fc7e840191ce767a0ea46?s=150&amp;d=identicon" />
 
 I am a medical doctor working as a resident at the [Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](http://www2.medizin.uni-greifswald.de/intensiv/).
 
@@ -16,12 +16,12 @@ namely the analysis of MALDI-TOF mass spectrometry data. In this time I develope
 You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on:
 {% for entry in site.data.social %} [{{ entry.title}}]({{ entry.url }}){% unless forloop.last %}, {% endunless %}{% endfor %}.
 
-<div class="clear" />
+<div class="clear"> </div>
 
 {% for cv in site.data.cv %}
 ## {{ cv.type }}
 {% for entry in cv.entries %}
-- **<time>{{ entry.time }}</time>**: {{ entry.title }}
+- **{{ entry.time }}**: {{ entry.title }}
 {% endfor %}
 {% endfor %}
 
@@ -31,7 +31,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% for entry in software.entries %}
 - [{{ entry.name }}]({%if entry.bioc %}http://bioconductor.org{% else %}http://cran.r-project.org/web{% endif %}/packages/{{ entry.name }}/):
   {{ entry.description }}.
-  [[github](https://github.com/{% if entry.github %}{{ entry.github }}{% else %}{{ entry.name }}{% endif %}){% if entry.url %}, [website]({{ entry.url }}){% endif %}]
+  [[github](https://github.com/{% if entry.github %}{{ entry.github }}{% else %}{{ entry.name | prepend: "sgibb/" }}{% endif %}){% if entry.url %}, [website]({{ entry.url }}){% endif %}]
 {% endfor %}
 {% endfor %}
 
