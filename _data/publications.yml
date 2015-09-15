@@ -33,3 +33,10 @@
       journal: Proceedings of the [8th International Workshop on Computational Systems Biology, WCSB 2011](http://www.wcsb2011.ethz.ch/) (June 6-8, 2011, Zurich, Switzerland), pp. 49-52
       year: 2011
       misc: "([reprint](http://strimmerlab.org/publications/conferences/maldiquant-wcsb2011.pdf), [poster](/downloads/maldiquant/wcsb2011-poster.pdf))"
+
+- name: M.D. thesis
+  entries:
+    - title: Development of a flexible bioinformatics platform for analyzing mass spectrometry data (in German)
+      authors: S. Gibb
+      year: 2015
+      misc: "URN: [urn:nbn:de:bsz:15-qucosa-178678](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-178678).<br />([reprint](/downloads/dissertation-sebastiangibb.pdf))"
