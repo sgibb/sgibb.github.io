@@ -2,6 +2,7 @@ language: ruby
 rvm:
 - 2.1
 
+install: gem install jekyll html-proofer jekyll-redirect-from
 script: jekyll build && htmlproof --check-html ./_site
 
 env:
