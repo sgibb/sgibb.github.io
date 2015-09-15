@@ -29,7 +29,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% for software in site.data.software %}
 ### {{ software.type }}
 {% for entry in software.entries %}
-- [{{ entry.name }}]({%if entry.bioc %}http://bioconductor.org{% else %}http://cran.r-project.org/web{% endif %}/packages/{{ entry.name }}/):
+- [{{ entry.name }}]({% if entry.bioc %}http://bioconductor.org{% else %}http://cran.r-project.org/web{% endif %}/packages/{{ entry.name }}/):
   {{ entry.description }}.
   [[github](https://github.com/{% if entry.github %}{{ entry.github }}{% else %}{{ entry.name | prepend: "sgibb/" }}{% endif %}){% if entry.url %}, [website]({{ entry.url }}){% endif %}]
 {% endfor %}
@@ -41,12 +41,13 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% for entry in pubs.entries %}
 - **{{ entry.title }}**.<br />
   {{ entry.authors | replace:'S. Gibb','*S. Gibb*' }}. {{ entry.year}}.<br />
-  {{ entry.journal }}.
-  {%if entry.doi %}<br />DOI: [{{ entry.doi}}](http://dx.doi.org/{{entry.doi}}).{% endif %} {%if entry.arxiv %} arXiv: [{{ entry.arxiv }}](http://arxiv.org/abs/{{entry.arxiv }}).{% endif %} {%if entry.misc %}<br />{{ entry.misc }}.{% endif %}
+  {% if entry.journal %}{{ entry.journal }}.<br />{% endif %}{% if entry.doi %}DOI: [{{ entry.doi}}](http://dx.doi.org/{{entry.doi}}).{% endif %} {% if entry.arxiv %} arXiv: [{{ entry.arxiv }}](http://arxiv.org/abs/{{entry.arxiv }}).{% endif %}{% if entry.misc %}{{ entry.misc }}.{% endif %}
 {% endfor %}
+{% if pubs.name == "Publications" %}
+(&sup1; equal contributors)
+{% endif %}
 {% endfor %}
 
-(&sup1; equal contributors)
 
 ### Recent presentations
 {% for entry in site.data.talks limit: 2 %}
