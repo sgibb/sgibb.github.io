@@ -3,7 +3,7 @@ rvm:
 - 2.1
 
 install: gem install jekyll html-proofer jekyll-redirect-from
-script: jekyll build && htmlproof --check-html ./_site
+script: jekyll build && htmlproof --check-html --only-4xx ./_site
 
 env:
   global:
