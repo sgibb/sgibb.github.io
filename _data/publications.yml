@@ -1,7 +1,7 @@
 - name: Publications
   entries:
     - title: Differential protein expression and peak selection in mass spectrometry data by binary discriminant analysis
-      authors: S. Gibb and and K. Strimmer
+      authors: S. Gibb and K. Strimmer
       journal: "Bioinformatics 31: 3156-3162"
       year: 2015
       doi: 10.1093/bioinformatics/btv334
