@@ -8,7 +8,7 @@ tags:
 ---
 
 based on [Google's R Style
-Guide](http://google-styleguide.googlecode.com/svn/trunk/google-r-style.html)
+Guide](https://google.github.io/styleguide/Rguide.xml)
 
 see also: [bioconductor's coding
 standards](http://www.bioconductor.org/developers/how-to/coding-style/)
