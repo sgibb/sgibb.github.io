@@ -26,6 +26,14 @@
       doi: 10.1093/bioinformatics/bts447
       arxiv: 1203.5885
 
+- name: Book chapters
+  entries:
+    - title: "R for Proteomics"
+      authors: L. M. Breckels, S. Gibb, V. Petyuk and L. Gatto
+      journal: "The Royal Society of Chemistry, Proteome Informatics, pp. 321-364"
+      year: 2016
+      doi: 10.1039/9781782626732-00321
+
 - name: Conference contributions
   entries:
     - title: Analysis of proteomic data using MALDIquant
