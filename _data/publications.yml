@@ -5,7 +5,7 @@
       journal: "Bioinformatics 31: 3156-3162"
       year: 2015
       doi: 10.1093/bioinformatics/btv334
-      arxiv: 1502.07959
+      arxiv: "1502.07959"
 
     - title: Visualization of proteomics data using R and Bioconductor
       authors: L. Gatto, L.M. Breckels, T. Naake and S. Gibb
@@ -24,7 +24,7 @@
       journal: "Bioinformatics 28: 2270-2271"
       year: 2012
       doi: 10.1093/bioinformatics/bts447
-      arxiv: 1203.5885
+      arxiv: "1203.5885"
 
 - name: Book chapters
   entries:
@@ -33,7 +33,7 @@
       journal: "Springer International Publishing, Statistical Analysis of Proteomics, Metabolomics, and Lipidomics Data Using Mass Spectrometry (Eds.: S. Datta and B. Mertens), pp. 101-124"
       year: 2017
       doi: 10.1007/978-3-319-45809-0_6
-      arxiv: 1607.03180
+      arxiv: "1607.03180"
 
     - title: "R for Proteomics"
       authors: L. M. Breckels, S. Gibb, V. Petyuk and L. Gatto
