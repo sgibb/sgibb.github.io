@@ -28,9 +28,16 @@
 
 - name: Book chapters
   entries:
+    - title: "Mass Spectrometry Analysis Using MALDIquant"
+      authors: S. Gibb and K. Strimmer
+      journal: "Springer International Publishing, Statistical Analysis of Proteomics, Metabolomics, and Lipidomics Data Using Mass Spectrometry (Eds.: S. Datta and B. Mertens), pp. 101-124"
+      year: 2017
+      doi: 10.1007/978-3-319-45809-0_6
+      arxiv: 1607.03180
+
     - title: "R for Proteomics"
       authors: L. M. Breckels, S. Gibb, V. Petyuk and L. Gatto
-      journal: "The Royal Society of Chemistry, Proteome Informatics, pp. 321-364"
+      journal: "The Royal Society of Chemistry, Proteome Informatics (Ed.: Conrad Bessant), pp. 321-364"
       year: 2016
       doi: 10.1039/9781782626732-00321
 
