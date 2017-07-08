@@ -9,7 +9,7 @@ email: "&#109;&#97;&#105;&#108;&#64;&#115;&#101;&#98;&#97;&#115;&#116;&#105;&#97
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 exclude: ['README.md', 'Gemfile', '/vendor']
