@@ -71,6 +71,10 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
         <td class="col1">e-mail:</td>
         <td class="col2"><a href="mailto:{{ site.email}}">{{ site.email }}</a></td>
     </tr>
+    <tr>
+        <td class="col1">pgp-key:</td>
+        <td class="col2">22C0 E8AC A81A 3A13 C788 BCC4 ECAA 2C0A 2843 245B</td>
+    </tr>
 </tbody></table>
 </address>
 
