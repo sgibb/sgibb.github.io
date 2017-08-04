@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/sgibb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sebastiangibb.de
+  * I am sgibb (https://keybase.io/sgibb) on keybase.
+  * I have a public key with fingerprint 22C0 E8AC A81A 3A13 C788  BCC4 ECAA 2C0A 2843 245B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b7abbfb1b336434909507277f3c3818ef905eb87788d3362be3704b40c8864850a",
+      "fingerprint": "22c0e8aca81a3a13c788bcc4ecaa2c0a2843245b",
+      "host": "keybase.io",
+      "key_id": "ecaa2c0a2843245b",
+      "kid": "0101b7abbfb1b336434909507277f3c3818ef905eb87788d3362be3704b40c8864850a",
+      "uid": "58a6af5f32ae3292c9d036deccb36219",
+      "username": "sgibb"
+    },
+    "service": {
+      "hostname": "sebastiangibb.de",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1501839604,
+  "expire_in": 157680000,
+  "prev": "53424d36c06120d35cc7b6ccd71bfa9ebf9ad3bc4900e96e4ba734d99d7c65ec",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFFEY3s2i3IqCoB60i9OVMpuZM9ctLMqMHjbSCBWt9dxmnbSZbXc0rfQh
+0jJ60OhCZHdIQiM1KCyptiQRKazoBhEJ3cOgrCSqrTOSbz12Xg7n/7/vO9/389eN
+T/D4vN8HepLW/ijc5u15hzx5u5bFt3PIJhWcfztXTIcuWkJo1AkWm4Tzc7zAC0iF
+CBlIQAAoEpB0Xpd5VVRVA2CgCRo1dF6mSFNVTSMMIiIKVF5CEo81TZE0mYdcKmeY
+VohGwhHTcpisKGKeahBDTYAACgAzLsJYohhC1oKiJgFRkhEjFtlRl8HMIRilaabN
+auwRHLL3D/x/9l06JCdrUIGGbAARUiDqItYJDxRCMUaMKOguMEojFtxMGToaMhHi
+KlM5ViozMXWn6sYYblOWxDGh5cLSCGXkcMR2bGyXsG6R44T9LtmpCLvorRQF/+oE
+kWkRNkdGKKORqGlbnF9gSOyYrrAg84IGdIWXUjlaHjYjNGi6CFlVNJ4d9xta5qYB
+kigRkKtgXhFEngAZYxUpGBNVQAbUKTJ0SADCbGY81RUqIagCieg6UbEiU8y50bZY
+NufXmE8YckOZIQs6pRHKVfpqvWCkx+vzTJ2cMrKqKbyz/um8Vyt2r2oc3r1RI9zF
+8/gSJw5XZtwbHVdrkqc8a/Tr0tEL1atqG7K/7ejeu679Y+jrjSf5ysrV96eJtycY
+hb9aF98i+0oCGWljKhtntT+sWeqf3dJzrPha28yslMEtG3vyT1V9Wpp+dUPG3jUz
+Lzf3X2/49GZc/KY4ti8lfCjL9/hDTuyS1enFv48dOdfXkZDpA3fapsSmS08K9px1
+tnYHrs/N//22P5CU0h9b2Pf0wcmagDfnV+nL57mLzs8/EWkZ7Mv/Mufg3erlzVcO
+Jyx4S77qvT8PHBkYiLXm1jW8WvN50+n19MymFcc7C7a1ddCuLlI/I3tSeoav971W
+3pGZnGqUjF78KHFw7MXXu0n80Iu8qU3ckv3l1YnttYE/
+=CFCk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sgibb
+
+==================================================================
