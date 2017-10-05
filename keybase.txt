@@ -4,7 +4,7 @@ https://keybase.io/sgibb
 
 I hereby claim:
 
-  * I am an admin of http://sebastiangibb.de
+  * I am an admin of https://sgibb.github.io
   * I am sgibb (https://keybase.io/sgibb) on keybase.
   * I have a public key with fingerprint 22C0 E8AC A81A 3A13 C788  BCC4 ECAA 2C0A 2843 245B
 
@@ -21,17 +21,27 @@ To do so, I am signing this object:
       "uid": "58a6af5f32ae3292c9d036deccb36219",
       "username": "sgibb"
     },
+    "merkle_root": {
+      "ctime": 1507220346,
+      "hash_meta": "6bcb3d9a404f1641195ebcc037f864e64575b2ec862999e1fa69ca4ef74f75bc",
+      "seqno": 1515638
+    },
+    "revoke": {
+      "sig_ids": [
+        "5ceeaac369e867a5869971aa20b575dd9072fffbb7a8e505e8a0b7926d0ee3d80f"
+      ]
+    },
     "service": {
-      "hostname": "sebastiangibb.de",
-      "protocol": "http:"
+      "hostname": "sgibb.github.io",
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1501839604,
+  "ctime": 1507220348,
   "expire_in": 157680000,
-  "prev": "53424d36c06120d35cc7b6ccd71bfa9ebf9ad3bc4900e96e4ba734d99d7c65ec",
-  "seqno": 8,
+  "prev": "e3564110d2a10f1f78ce2b002ca90c83879852e543ad4186effeffd5791ea1ed",
+  "seqno": 12,
   "tag": "signature"
 }
 
@@ -39,23 +49,26 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtUltIFFEY3s2i3IqCoB60i9OVMpuZM9ctLMqMHjbSCBWt9dxmnbSZbXc0rfQh
-0jJ60OhCZHdIQiM1KCyptiQRKazoBhEJ3cOgrCSqrTOSbz12Xg7n/7/vO9/389eN
-T/D4vN8HepLW/ijc5u15hzx5u5bFt3PIJhWcfztXTIcuWkJo1AkWm4Tzc7zAC0iF
-CBlIQAAoEpB0Xpd5VVRVA2CgCRo1dF6mSFNVTSMMIiIKVF5CEo81TZE0mYdcKmeY
-VohGwhHTcpisKGKeahBDTYAACgAzLsJYohhC1oKiJgFRkhEjFtlRl8HMIRilaabN
-auwRHLL3D/x/9l06JCdrUIGGbAARUiDqItYJDxRCMUaMKOguMEojFtxMGToaMhHi
-KlM5ViozMXWn6sYYblOWxDGh5cLSCGXkcMR2bGyXsG6R44T9LtmpCLvorRQF/+oE
-kWkRNkdGKKORqGlbnF9gSOyYrrAg84IGdIWXUjlaHjYjNGi6CFlVNJ4d9xta5qYB
-kigRkKtgXhFEngAZYxUpGBNVQAbUKTJ0SADCbGY81RUqIagCieg6UbEiU8y50bZY
-NufXmE8YckOZIQs6pRHKVfpqvWCkx+vzTJ2cMrKqKbyz/um8Vyt2r2oc3r1RI9zF
-8/gSJw5XZtwbHVdrkqc8a/Tr0tEL1atqG7K/7ejeu679Y+jrjSf5ysrV96eJtycY
-hb9aF98i+0oCGWljKhtntT+sWeqf3dJzrPha28yslMEtG3vyT1V9Wpp+dUPG3jUz
-Lzf3X2/49GZc/KY4ti8lfCjL9/hDTuyS1enFv48dOdfXkZDpA3fapsSmS08K9px1
-tnYHrs/N//22P5CU0h9b2Pf0wcmagDfnV+nL57mLzs8/EWkZ7Mv/Mufg3erlzVcO
-Jyx4S77qvT8PHBkYiLXm1jW8WvN50+n19MymFcc7C7a1ddCuLlI/I3tSeoav971W
-3pGZnGqUjF78KHFw7MXXu0n80Iu8qU3ckv3l1YnttYE/
-=CFCk
+owGtU11oHUUUvtGUkFAl1BIpscRuUQQvYX72ZyYPWhqttUS0D2Jjm1xnZs/cuyT3
+7nV3c9M0REQRjbGQILa0FX3QpqLtQx/SFk1/rCU+BGzoj8ZabRu0JVTwQUs1IeJs
+tFDER4eFYed83znf+c7M8F13Zuqq/vh1svGZ+Re2VU3Oykz715sH+y0Z+n1WS7/V
+BYsbdPsQJ7muwLdaLIQRlp6QUkssKXVtanPEHeQRz9NUUYYZaI4ckMzzGPMNhEig
+HrKljRRjrs0cJKyspYNSHqJyFJQSk5YQhYAJJRgWVGCqDFcqZYMSwoQEYTYltiMN
+sRDGKcOIkyKG5iA0Z+YntyjvP/D/s+6exXQOE67QjqZEACWcKO4j6vqglDREzFNg
+DFFJFMGg43wgpTWQtYoQdXVDLgrDJHVWJUEax6kMgqjtmu5EXMgVIRGG5kqTzefC
+RrbGro0xN/KUQtTTRg+4tuM5koBiLuGcA9bC5UrYoD1bm4gyImJ4sRSmFbDjUmYU
+RFAJuyAtHgd541lstWy2HAUghDrRS10OzPWEw1zOPWy8RNIU8X1uFGqtpbGQgWNs
+YgJJjxPXRwDUZ0hbHQNpuagSqMX06Zhub785HySFHvn3vMpRmIQq7DbBQpKU45bU
+nKSvnKJ7Qeb+yZOTQck398QwKhDFQVgyrRjkv31jWQu2loMIckGKcDyXIbPSOlBJ
+bwV1UvuQTwRGGmuPKSASIaIEN8OlzOPMIeDYVPg2Zi5obT7f8TgGgcG/zUhidIp8
+2lSQL4mkJwJroG6wilZnquoyKxtWVb/0SfmVkW8f+qn19Sf23XpbS+5IH1amrrb+
+1snMwZo/s0fufTURX72x8UD93vf95Wt/yHzXfu66mBw5fPrpwxPzN89e2fbWUD4Z
+GDq5Z3XNup2qaWGNfnz7zIkLNw/d/+Sm3+SlSzWbWstXr/bNXc/M7Fr3yJb1wxcW
+PlzW//xU9ZJcPHfoxlRv6aO5D3Z//NSRl3+Jmzey/b/3j2443pG5fODnM9fGVhXX
+vNm+daJTVqYffu34N03vnXw3XN452Dk+2zE6drHUcHntc0dJ/T2nH2s89ujg+PcP
+Lv10gSydaV4djbnvFEa2tH2+smn/Z6dW9DaIPfNx7YbpL4aHrp1/+8reG/ftLGa3
+77r7Ytv8jsYdI7M/ThTXP1s8c/CBtlPTkVX75fjU3O7R7GTrsr8A
+=ySpK
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
