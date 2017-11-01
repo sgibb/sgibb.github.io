@@ -22,6 +22,10 @@
     github: ComputationalProteomicsUnit/Pbase
     bioc: 1
 
+  - name: topdownr
+    description: Investigation of Fragmentation Conditions in Top-Down Proteomics
+    github: sgibb/topdownr
+    bioc: 1
 - type: Contributions to R packages
   entries:
   - name: synapter
