@@ -16,8 +16,8 @@ tags:
 
 # git repositories
 
-* [debian-med](http://anonscm.debian.org/gitweb/?pf=debian-med)
-* [debichem](http://anonscm.debian.org/gitweb/?pf=debichem)
+* [debian-med](https://salsa.debian.org/med-team)
+* [debichem](https://salsa.debian.org/debichem-team)
 
 # qa pages
 
