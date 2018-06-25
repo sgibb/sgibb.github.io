@@ -65,7 +65,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
     </tr>
     <tr>
         <td class="col1">address:</td>
-        <td class="col2">Peter-Warschow-Stra&szlig;e 52<br>D-17489 Greifswald</td>
+        <td class="col2">Birnenweg 54a<br>D-17489 Greifswald</td>
     </tr>
     <tr>
         <td class="col1">e-mail:</td>
