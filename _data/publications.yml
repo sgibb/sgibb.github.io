@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "The role of the ultra short-acting &beta;<sup>1</sup>-adrenoreceptor antagonist Landiolol in the treatment of atrial fibrillation: pharmacology, clinical application and current evidence in anaesthesiology, intensive care and emergency medicine"
+      authors: S. Gibb and S. Rehberg
+      journal: "Anästhesiologie & Intensivmedizin 59:407-421"
+      year: 2018
+      misc: "[reprint](https://www.ai-online.info/aionline/Artikel/Jahr/2018/Monat/Juli-August/Titel/Rolle_des_ultrakurzwirksamen_Beta_1AdrenorezeptorAntagonisten_Landiolol_in_der_Therapie_des_Vorhofflimmerns/artikelId/3382/wicket:pageMapName/AI-Artikel?wicket:interface=AI-Artikel:0:pdfVersion::ILinkListener::)"
+
     - title: Differential protein expression and peak selection in mass spectrometry data by binary discriminant analysis
       authors: S. Gibb and K. Strimmer
       journal: "Bioinformatics 31: 3156-3162"
