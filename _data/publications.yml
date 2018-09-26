@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "Maximizing Sequence Coverage in Top-Down Proteomics By Automated Multi-modal Gas-phase Protein Fragmentation"
+      authors: P.V. Shliaha, S. Gibb, V. Gorshkov, M.S. Jespersen, G.R. Andersen, D. Bailey, J. Schwartz, S. Eliuk, V. Schwämmle and O.N. Jensen
+      journal: "Analytical Chemistry"
+      year: 2018
+      doi: 10.1021/acs.analchem.8b02344
+
     - title: "The role of the ultra short-acting &beta;<sub>1</sub>-adrenoreceptor antagonist Landiolol in the treatment of atrial fibrillation: pharmacology, clinical application and current evidence in anaesthesiology, intensive care and emergency medicine (in German)"
       authors: S. Gibb and S. Rehberg
       journal: "Anästhesiologie & Intensivmedizin 59:407-421"
