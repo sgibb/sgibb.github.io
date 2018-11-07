@@ -1,7 +1,5 @@
 language: ruby
 cache: bundler
-rvm:
-- 2.2.5
 
 install: gem install jekyll html-proofer jekyll-redirect-from
 script: jekyll build && htmlproofer --check-html --only-4xx  --http-status-ignore "403" ./_site
