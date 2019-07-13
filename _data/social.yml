@@ -19,5 +19,9 @@
 - title: twitter
   url: https://twitter.com/sebastiangibb
 
+- title: mastodon
+  url: https://floss.social/@sgibb
+  rel: me
+
 - title: stackoverflow
   url: https://stackoverflow.com/users/1178053/sgibb

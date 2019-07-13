@@ -14,7 +14,7 @@ headed by [Korbinian Strimmer](http://strimmerlab.org/korbinian.html) and worked
 namely the analysis of MALDI-TOF mass spectrometry data. In this time I developed [MALDIquant](http://strimmerlab.org/software/maldiquant/) and friends.
 
 You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on:
-{% for entry in site.data.social %} [{{ entry.title}}]({{ entry.url }}){% unless forloop.last %}, {% endunless %}{% endfor %}.
+{% for entry in site.data.social %} [{{ entry.title}}]({{ entry.url }}){% if entry.rel %}{:rel="{{ entry.rel}}"}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
 
 <div class="clear"> </div>
 
