@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "MSnbase, efficient and elegant R-based processing and visualisation of raw mass spectrometry data"
+      authors: L. Gatto, S. Gibb and J. Rainer
+      journal: "bioRxiv 2020.04.29.067868"
+      year: 2020
+      doi: 10.1101/2020.04.29.067868
+
     - title: "Notfall Sepsis: Erkennen, Diagnose, Therapie"
       authors: M. Gründling, S. Gibb and A. Kühn
       journal: "Intensivmed.up2date 15(03): 291-305"
