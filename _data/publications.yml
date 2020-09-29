@@ -2,9 +2,10 @@
   entries:
     - title: "MSnbase, efficient and elegant R-based processing and visualisation of raw mass spectrometry data"
       authors: L. Gatto, S. Gibb and J. Rainer
-      journal: "bioRxiv 2020.04.29.067868"
+      journal: "Journal of Proteome Research"
       year: 2020
-      doi: 10.1101/2020.04.29.067868
+      doi: 10.1021/acs.jproteome.0c00313
+      biorxiv: 2020.04.29.067868
 
     - title: "Notfall Sepsis: Erkennen, Diagnose, Therapie"
       authors: M. Gründling, S. Gibb and A. Kühn
