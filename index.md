@@ -41,7 +41,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% for entry in pubs.entries %}
 - **{{ entry.title }}**.<br />
   {{ entry.authors | replace:'S. Gibb','*S. Gibb*' }}. {{ entry.year}}.<br />
-  {% if entry.journal %}{{ entry.journal }}.<br />{% endif %}{% if entry.doi %}DOI: [{{ entry.doi}}](https://doi.org/{{entry.doi}}).{% endif %} {% if entry.arxiv %} arXiv: [{{ entry.arxiv }}](https://arxiv.org/abs/{{entry.arxiv }}).{% endif %}{% if entry.biorxiv %} bioRxiv: [{{ entry.biorxiv }}](https://www.biorxiv.org/content/10.1101/{{entry.biorxiv }}).{% endif %}{% if entry.misc %}{{ entry.misc }}.{% endif %}
+  {% if entry.journal %}{{ entry.journal }}.<br />{% endif %}{% if entry.doi %}DOI: [{{ entry.doi}}](https://doi.org/{{entry.doi}}).{% endif %} {% if entry.arxiv %} arXiv: [{{ entry.arxiv }}](https://arxiv.org/abs/{{entry.arxiv }}).{% endif %}{% if entry.biorxiv %} bioRxiv: [{{ entry.biorxiv }}](https://doi.org/10.1101/{{entry.biorxiv }}).{% endif %}{% if entry.misc %}{{ entry.misc }}.{% endif %}
 {% endfor %}
 {% if pubs.name == "Publications" %}
 (&sup1; equal contributors)
