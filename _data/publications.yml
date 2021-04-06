@@ -2,7 +2,7 @@
   entries:
     - title: "MSnbase, efficient and elegant R-based processing and visualisation of raw mass spectrometry data"
       authors: L. Gatto, S. Gibb and J. Rainer
-      journal: "Journal of Proteome Research"
+      journal: "Journal of Proteome Research 20: 1063-1069"
       year: 2020
       doi: 10.1021/acs.jproteome.0c00313
       biorxiv: 2020.04.29.067868
