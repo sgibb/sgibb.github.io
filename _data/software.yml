@@ -3,15 +3,19 @@
   - name: MALDIquant
     description: Quantitative Analysis of Mass Spectrometry Data
     url: https://strimmerlab.org/software/maldiquant/
+    cran: 1
 
   - name: MALDIquantForeign
     description: Import/Export routines for MALDIquant
+    cran: 1
 
   - name: readBrukerFlexData
     description: "Reads MS data in Bruker *flex format"
+    cran: 1
 
   - name: readMzXmlData
     description: Reads MS data in mzXML format
+    cran: 1
 
   - name: cleaver
     description: In-silico cleavage of polypeptide sequences
@@ -51,3 +55,4 @@
   - name: zoom
     description: A spatial data visualization tool
     github: cbarbu/R-package-zoom
+    cran: 1
