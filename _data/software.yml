@@ -2,7 +2,7 @@
   entries:
   - name: MALDIquant
     description: Quantitative Analysis of Mass Spectrometry Data
-    url: http://strimmerlab.org/software/maldiquant/
+    url: https://strimmerlab.org/software/maldiquant/
 
   - name: MALDIquantForeign
     description: Import/Export routines for MALDIquant
