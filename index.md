@@ -5,8 +5,6 @@ redirect_from:
     - research.html
 ---
 
-<img class="photo" alt="photo of sebastian" src="https://www.gravatar.com/avatar/6e612cc57c8fc7e840191ce767a0ea46?s=150&amp;d=identicon" />
-
 I am a medical doctor working as a consultant at the [Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](http://www2.medizin.uni-greifswald.de/intensiv/).
 
 In 2010 I joined the [Statistics and Computational Biology research group](http://strimmerlab.org)
