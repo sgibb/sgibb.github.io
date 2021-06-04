@@ -28,10 +28,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 ### {{ software.type }}
 {% for entry in software.entries %}
 - **{{ entry.name }}**: {{ entry.description }}.
-  [[github](https://github.com/{% if entry.github %}{{ entry.github }}{% else %}{{ entry.name | prepend: "sgibb/" }}{% endif %})
-  {% if entry.bioc %}, [bioconductor](https://bioconductor.org/packages/{{ entry.name }}/){% endif %}
-  {% if entry.cran %}, [cran](https://cran.r-project.org/web/packages/{{ entry.name }}/){% endif %}
-  {% if entry.url %}, [website]({{ entry.url }}){% endif %}]
+  [[github](https://github.com/{% if entry.github %}{{ entry.github }}{% else %}{{ entry.name | prepend: "sgibb/" }}{% endif %}){% if entry.bioc %}, [bioconductor](https://bioconductor.org/packages/{{ entry.name }}/){% endif %}{% if entry.cran %}, [cran](https://cran.r-project.org/web/packages/{{ entry.name }}/){% endif %}{% if entry.url %}, [website]({{ entry.url }}){% endif %}]
 {% endfor %}
 {% endfor %}
 
