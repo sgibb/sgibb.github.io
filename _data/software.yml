@@ -28,6 +28,11 @@
     bioc: 1
 - type: Contributions to R packages
   entries:
+  - name: RforMassSpectrometry
+    description: R for Mass Spectrometry - R software for the analysis and interpretation of high throughput mass spectrometry assays
+    github: rformassspectrometry
+    url: https://www.rformassspectrometry.org/
+
   - name: synapter
     description: Label-free data analysis pipeline for optimal identification and quantitation
     github: lgatto/synapter
