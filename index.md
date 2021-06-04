@@ -19,7 +19,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% for cv in site.data.cv %}
 ## {{ cv.type }}
 {% for entry in cv.entries %}
-- **{{ entry.time }}**: {{ entry.title }}
+- **{{ entry.time }}**: {{ entry.title }}.
 {% endfor %}
 {% endfor %}
 
