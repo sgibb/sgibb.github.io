@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R"
+      authors: J. Rainer, A. Vicini, L. Salzer, J. Stanstrup, J. M. Badia, S. Neumann, M. A. Stravs, V. V. Hernandes, L. Gatto, S. Gibb and M. Witting
+      journal: "Metabolites"
+      year: 2022
+      doi: 10.3390/metabo12020173
+
     - title: "MSnbase, efficient and elegant R-based processing and visualisation of raw mass spectrometry data"
       authors: L. Gatto, S. Gibb and J. Rainer
       journal: "Journal of Proteome Research 20: 1063-1069"
