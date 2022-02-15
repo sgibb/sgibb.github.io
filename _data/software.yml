@@ -21,11 +21,6 @@
     description: In-silico cleavage of polypeptide sequences
     bioc: 1
 
-  - name: Pbase
-    description: Manipulating and exploring protein and proteomics data
-    github: ComputationalProteomicsUnit/Pbase
-    bioc: 1
-
   - name: topdownr
     description: Investigation of Fragmentation Conditions in Top-Down Proteomics
     github: sgibb/topdownr
