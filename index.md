@@ -45,13 +45,6 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% endif %}
 {% endfor %}
 
-
-### Recent presentations
-{% for entry in site.data.talks limit: 2 %}
-- **{{ entry.title }}**.<br />
-  {{ entry.date }}. {{ entry.location }}. [[pdf]({{ entry.url }})].<br />
-{% endfor %}
-
 ## Contact
 
 <address>
