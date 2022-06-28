@@ -1,10 +1,10 @@
 - type: Employment
   entries:
-    - title: "[Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics of the University Hospital Leipzig](http://ilm.uniklinikum-leipzig.de/)"
-      time: "Sep 2019 - now"
-
     - title: "[Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](https://www2.medizin.uni-greifswald.de/intensiv/)"
       time: "Dec 2014 - now"
+
+    - title: "[Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics of the University Hospital Leipzig](http://ilm.uniklinikum-leipzig.de/)"
+      time: "Sep 2019 - Jun 2022"
 
     - title: "[Department of Anaesthesiology and Intensive Care of the University Hospital Carl Gustav Carus Dresden](http://anaesthesie-dresden.de/)"
       time: "Jun 2014 - Nov 2014"
