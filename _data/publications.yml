@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "Effective Amino Acid Sequencing of Intact Filgrastim by Multimodal Mass Spectrometry with Topdownr"
+      authors: M. Babović, P.V. Shliaha, S. Gibb, and O.N. Jensen
+      journal: "Journal of American Society for Mass Spectrometry"
+      year: 2022
+      doi: 10.1021/jasms.2c00193
+
     - title: "A Modular and Expandable Ecosystem for Metabolomics Data Annotation in R"
       authors: J. Rainer, A. Vicini, L. Salzer, J. Stanstrup, J. M. Badia, S. Neumann, M. A. Stravs, V. V. Hernandes, L. Gatto, S. Gibb and M. Witting
       journal: "Metabolites"
