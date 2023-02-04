@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "A new machine-learning-based prediction of survival in patients with end-stage liver disease"
+      authors: S. Gibb, T. Berg, A. Herber, B. Isermann, and T. Kaiser
+      journal: "LaboratoriumsMedizin"
+      year: 2023
+      doi: 10.1515/labmed-2022-0162
+
     - title: "Effective Amino Acid Sequencing of Intact Filgrastim by Multimodal Mass Spectrometry with Topdownr"
       authors: M. Babović, P.V. Shliaha, S. Gibb, and O.N. Jensen
       journal: "Journal of American Society for Mass Spectrometry"
