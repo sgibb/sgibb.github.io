@@ -7,10 +7,6 @@ redirect_from:
 
 I am a medical doctor working as a consultant at the [Department of Anaesthesiology and Intensive Care of the University Medicine Greifswald](https://www2.medizin.uni-greifswald.de/intensiv/).
 
-In 2010 I joined the [Statistics and Computational Biology research group](https://strimmerlab.github.io)
-headed by [Korbinian Strimmer](https://strimmerlab.github.io/korbinian.html) and worked on computational proteomics,
-namely the analysis of MALDI-TOF mass spectrometry data. In this time I developed [MALDIquant](https://strimmerlab.github.io/software/maldiquant/) and friends.
-
 You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on:
 {% for entry in site.data.social %} [{{ entry.title}}]({{ entry.url }}){% if entry.rel %}{:rel="{{ entry.rel}}"}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
 
