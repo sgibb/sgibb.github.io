@@ -38,6 +38,7 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
 {% endfor %}
 {% if pubs.name == "Publications" %}
 (&sup1; equal contributors)
+(&sup2; equal senior contributors)
 {% endif %}
 {% endfor %}
 

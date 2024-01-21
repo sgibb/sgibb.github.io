@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "Applying Machine Learning to Blood Count Data Predicts Sepsis with ICU Admission"
+      authors: D. Steinbach&sup1, P. Ahrens&sup1, M. Federbusch, L. Heuft, C. Lübbert, M. Nauck, M. Gründling, B. Isermann, S. Gibb&sup2, Th. Kaiser&sup2;
+      journal: "Clinical Chemistry"
+      year: 2024
+      doi: 10.1093/clinchem/hvae001
+
     - title: "A new machine-learning-based prediction of survival in patients with end-stage liver disease"
       authors: S. Gibb, T. Berg, A. Herber, B. Isermann, and T. Kaiser
       journal: "LaboratoriumsMedizin"
