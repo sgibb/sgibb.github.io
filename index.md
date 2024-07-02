@@ -51,10 +51,6 @@ You could write me an <a href="mailto:{{ site.email }}">e-mail</a> or find me on
         <td class="col2">Sebastian Gibb</td>
     </tr>
     <tr>
-        <td class="col1">address:</td>
-        <td class="col2">Birnenweg 54a<br>D-17489 Greifswald</td>
-    </tr>
-    <tr>
         <td class="col1">e-mail:</td>
         <td class="col2"><a href="mailto:{{ site.email}}">{{ site.email }}</a></td>
     </tr>
