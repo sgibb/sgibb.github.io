@@ -1,5 +1,11 @@
 - name: Publications
   entries:
+    - title: "Incidence and onset of central venous catheter-related thrombosis in critically ill surgical patients: A prospective observational single-center study"
+      authors: S. Gibb, S. Engelhardt, F. von Dincklage, S.-O. Kuhn
+      journal: "Journal of Clinical Anesthesia"
+      year: 2024
+      doi: 10.1016/j.jclinane.2024.111556
+
     - title: "Applying Machine Learning to Blood Count Data Predicts Sepsis with ICU Admission"
       authors: D. Steinbach&sup1;, P. Ahrens&sup1;, M. Schmidt, M. Federbusch, L. Heuft, C. Lübbert, M. Nauck, M. Gründling, B. Isermann, S. Gibb&sup2;, Th. Kaiser&sup2;
       journal: "Clinical Chemistry"
