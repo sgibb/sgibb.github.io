@@ -1,13 +1,20 @@
 - name: Publications
   entries:
+    - title: "Zusammenfassung der S1-Leitlinie Nachhaltigkeit in der Intensiv- und Notfallmedizin"
+      authors: V. König, M. Berek, S. Gibb, C. Hermes, H. Hilgarth, U. Janssens, J. Kessel, V. Kitz, J. Kreutziger, M. Krone, D. Mager, G. Michels, S. Möller, T. Ochmann, S. Scheithauer, I. Wagenhäuser, N. Weeverink, D. Weismann, T. Wengenmayer, F. M. Wilkens, and M. Kochanek
+      journal: "Medizinische Klinik - Intensivmedizin und Notfallmedizin"
+      year: 2024
+      doi: 10.1007/s00063-024-01209-w 
+      misc: "([Langfassung der Leitlinie auf AWMF.org](https://register.awmf.org/de/leitlinien/detail/113-004))"
+
     - title: "Incidence and onset of central venous catheter-related thrombosis in critically ill surgical patients: A prospective observational single-center study"
-      authors: S. Gibb, S. Engelhardt, F. von Dincklage, S.-O. Kuhn
+      authors: S. Gibb, S. Engelhardt, F. von Dincklage, and S.-O. Kuhn
       journal: "Journal of Clinical Anesthesia"
       year: 2024
       doi: 10.1016/j.jclinane.2024.111556
 
     - title: "Applying Machine Learning to Blood Count Data Predicts Sepsis with ICU Admission"
-      authors: D. Steinbach&sup1;, P. Ahrens&sup1;, M. Schmidt, M. Federbusch, L. Heuft, C. Lübbert, M. Nauck, M. Gründling, B. Isermann, S. Gibb&sup2;, Th. Kaiser&sup2;
+      authors: D. Steinbach&sup1;, P. Ahrens&sup1;, M. Schmidt, M. Federbusch, L. Heuft, C. Lübbert, M. Nauck, M. Gründling, B. Isermann, S. Gibb&sup2;, and Th. Kaiser&sup2;
       journal: "Clinical Chemistry"
       year: 2024
       doi: 10.1093/clinchem/hvae001
