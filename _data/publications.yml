@@ -1,10 +1,28 @@
 - name: Publications
   entries:
+    - title: "Volatile capture technology in the operating room: How does it work, what are the technical limitations and what does it mean for clinical practice?"
+      authors: S. Gibb, M. Schuster, and L. Grüßer
+      journal: "Best Practice & Research Clinical Anaesthesiology"
+      year: 2025
+      doi: 10.1016/j.bpa.2025.04.001
+
+    - title: "The role of the Corsano CardioWatch in continuous vital sign monitoring for early sepsis detection"
+      authors: S.-O. Kuhn, S. Gibb, and M. Gründling
+      journal: "Critical Care"
+      year: 2025
+      doi: 10.1186/s13054-025-05365-z
+
+    - title: "S1-Leitlinie Nachhaltigkeit in der Intensiv- und Notfallmedizin"
+      authors: M. Kochanek, M. Berek, S. Gibb, C. Hermes, H. Hilgarth, U. Janssens, J. Kessel, V. Kitz, J. Kreutziger, M. Krone, D. Mager, G. Michels, S. Möller, T. Ochmann, S. Scheithauer, I. Wagenhäuser, N. Weeverink, D. Weismann, T. Wengenmayer, F. M. Wilkens, and V. König
+      journal: "Medizinische Klinik - Intensivmedizin und Notfallmedizin"
+      year: 2025
+      doi: 10.1007/s00063-025-01261-0
+
     - title: "Zusammenfassung der S1-Leitlinie Nachhaltigkeit in der Intensiv- und Notfallmedizin"
       authors: V. König, M. Berek, S. Gibb, C. Hermes, H. Hilgarth, U. Janssens, J. Kessel, V. Kitz, J. Kreutziger, M. Krone, D. Mager, G. Michels, S. Möller, T. Ochmann, S. Scheithauer, I. Wagenhäuser, N. Weeverink, D. Weismann, T. Wengenmayer, F. M. Wilkens, and M. Kochanek
       journal: "Medizinische Klinik - Intensivmedizin und Notfallmedizin"
       year: 2024
-      doi: 10.1007/s00063-024-01209-w 
+      doi: 10.1007/s00063-024-01209-w
       misc: "([Langfassung der Leitlinie auf AWMF.org](https://register.awmf.org/de/leitlinien/detail/113-004))"
 
     - title: "Incidence and onset of central venous catheter-related thrombosis in critically ill surgical patients: A prospective observational single-center study"
